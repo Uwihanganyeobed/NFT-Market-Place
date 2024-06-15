@@ -53,7 +53,10 @@ export default function _layout() {
       <Text>{JSON.stringify(userInfo, null, 2)}</Text>
       <Text className="text-teal-500">Code with Obed</Text>
       <Button title="Sign in with Google" onPress={() => promptAsync()} />
-      <Button title="delete local storage" onPress={()=> AsyncStorage.removeItem("@user")} />
+      <Button
+        title="delete local storage"
+        onPress={() => AsyncStorage.removeItem("@user")}
+      />
     </View>
   );
 }
