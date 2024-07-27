@@ -98,3 +98,40 @@ export default function _layout() {
     </View>
   );
 }
+
+
+/*
+deploy at vercel
+
+https://medium.com/@PreetamGahlot/streamlining-the-deployment-of-expo-web-applications-on-vercel-2e3f32f3b39e
+step 1: npm install -g vercel@latest
+step 2: run vc
+step 2: continue
+PS C:\Users\user\Documents\Major_Web-Dvpt-Tools\React-Mobile-Native\NFT\nfts> vc
+Vercel CLI 35.2.1
+> > No existing credentials found. Please log in:
+? Log in to Vercel Continue with    
+GitHub
+> Please visit the following URL in your web browser:
+> https://vercel.com/api/registratio
+> Success! GitHub authentication complete for uwihanganyeobed@gmail.com
+? Set up and deploy 
+“~\Documents\Major_Web-Dvpt-Tools\Re
+act-Mobile-Native\NFT\nfts”? yes    
+? Which scope do you want to deploy 
+to? Vargas' projects
+? Link to existing project? no      
+? What’s your project’s name?       
+google-auth-login
+? In which directory is your code   
+located? ./web-build
+Error: The provided path “~\Documents\Major_Web-Dvpt-Tools\React-Mobile-Native\NFT\nfts\web-build” does not exist. Please choose a different one.
+? In which directory is your code   
+located? ./
+Local settings detected in vercel.json:
+No framework detected. Default Project Settings:
+in/EVGWHdhDYkiQpkLgpP7JUnoXhbkA [3s]✅  Production: https://google-auth-login-2091254bi-vargas-projects-f7cdfea5.vercel.app [3s]
+📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+💡  To change the domain or build command, go to https://vercel.com/vargas-projects-f7cdfea5/google-auth-login/settings
+
+*/ 
